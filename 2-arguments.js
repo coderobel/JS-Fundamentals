@@ -1,8 +1,6 @@
 arguments = [];
-let j = 0;
-for(let i = 0; i <= arguments.length;i++){
-    j += i;
-}
+let j = arguments.length;
+
 if(j = 0){
     console.log("No argument");
 }else if(j = 1){
