@@ -1,5 +1,5 @@
-let arguments = [];
-let j = arguments.length;
+let argument = process.argv.slice(2);
+let j = argument.length;
 
 if(j = 0){
     console.log("No argument");
