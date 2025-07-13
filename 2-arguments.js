@@ -1,6 +1,6 @@
 arguments = [];
 let j = 0;
-for(let i = 0; i < arguments.length;i++){
+for(let i = 0; i <= arguments.length;i++){
     j += i;
 }
 if(j = 0){
