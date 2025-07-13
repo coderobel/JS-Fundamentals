@@ -1,5 +1,5 @@
-function concat(arg1, arg2){
-    console.log(`${arg1} is ${arg2}`);
+const arr = process.argv.slice(2);
+
+if(arr.length == 2){
+    console.log(`${arr[1]} is ${arr[2]}`)
 }
-concat('Python', 'fun');
-concat('HBTN', 'undefined');
