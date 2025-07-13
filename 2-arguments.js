@@ -1,4 +1,4 @@
-arguments = [];
+let arguments = [];
 let j = arguments.length;
 
 if(j = 0){
