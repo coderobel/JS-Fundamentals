@@ -1,8 +1,7 @@
 const arr = process.argv.slice(2);
-let i = 0;
-if(i < 1){
-    console.log(arr[0]);
-    i++;
-}else{
+
+if(arr.join() === ""){
     console.log("No argument");
+}else{
+    console.log(arr[0]);
 }
