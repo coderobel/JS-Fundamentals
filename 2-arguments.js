@@ -1,7 +1,7 @@
 let arr = process.argv.slice(2);
 let j = arr.length;
 
-if(arr.join === ""){
+if(arr.join() === ""){
     console.log("No argument");
 }else if(j == 1){
     console.log("Argument found");
