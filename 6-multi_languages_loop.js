@@ -1,7 +1,6 @@
-let arr1 = ['C', 'Python', 'Javascript'];
-let arr2 = ['fun', 'cool', 'amazing'];
+let arr = process.argv.slice(2);
 let result = '';
 for(let i = 0;i < 3;i++){
-    result += `${arr1[i]} is ${arr2[i]}\n`
+    result += `${arr[0]} is ${arr2[1]}\n`
 }
 console.log(result);
