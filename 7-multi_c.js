@@ -5,4 +5,6 @@ if(typeof Number(arr[0]) == "number"){
     while (i < x){
         console.log('C is fun');
     }
+}else{
+    console.log('Missing number of occurrences');
 }
