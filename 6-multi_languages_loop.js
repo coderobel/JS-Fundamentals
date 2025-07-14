@@ -1,10 +1,11 @@
-let arr = process.argv.slice(2);
+let arr = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 let i = 0;
-let result = "";
+let result = '';
 
-while (i < 3) {
-    result += `${arr[0]} is ${arr[1]}\n`;
+while (i < arr.length) {
+    result += arr[i] + '\n';
     i++;
 }
 
 console.log(result.trim());
+
