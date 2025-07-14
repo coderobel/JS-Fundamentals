@@ -1,5 +1,10 @@
 let arr = process.argv.slice(2);
+let i = 0;
+let result = "";
 
-while(arr.length == 2){
-    console.log(`${arr[0]} is ${arr[1]}`);
-};
+while (i < 1) {
+    result += `${arr[0]} is ${arr[1]}\n`;
+    i++;
+}
+
+console.log(result.trim());
